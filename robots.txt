@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://github.com/EricFu1120/EricFu1120.github.io.git/sitemap.xml
