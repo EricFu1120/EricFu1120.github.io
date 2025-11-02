@@ -5,9 +5,6 @@ categories: [Tutorial]
 tags: [jekyll, chirpy]
 author: Claude Code
 description: A comprehensive guide to getting started with Jekyll and the Chirpy theme
-image:
-  path: /assets/img/post-welcome.jpg
-  alt: Welcome banner image
 ---
 
 # Welcome to My Blog! 🎉
