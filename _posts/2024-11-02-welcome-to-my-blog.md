@@ -95,8 +95,6 @@ greetUser('Reader');
 
 [Link to Jekyll](https://jekyllrb.com/)
 
-![Sample Image](/assets/img/sample-image.jpg)
-
 ### Blockquotes
 
 > This is a blockquote. It's great for highlighting important information or quotes from other sources.
