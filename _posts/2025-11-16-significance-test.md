@@ -1,5 +1,5 @@
 ---
-title: Quoting Stats and R - What statistical test should I do? 
+title: Blog Recommend - Stats and R - What statistical test should I do? 
 date: 2025-11-16 15:30:00 +0800
 categories: [Statistics]
 tags: [significance test, reflection]
