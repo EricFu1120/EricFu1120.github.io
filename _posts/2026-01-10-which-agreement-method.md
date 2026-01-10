@@ -3,8 +3,8 @@ title: Which Agreement Measurement Method Should I Use?
 date: 2026-01-10 12:20:00 +0800
 categories: [Statistics]
 tags: [agreement, evaluation]
-author: Eric Fu
-description: A simple guide on when using specific method in a project
+math: true
+mermaid: true
 ---
 
 # Which Agreement Measurement Method Should I Use?
