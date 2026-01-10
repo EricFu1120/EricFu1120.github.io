@@ -15,13 +15,11 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 **Agreement** (also called concordance or reproducibility) refers to the degree of concordance between two or more sets of measurements made on the same subjects. This is fundamentally different from correlation:
 
-<div class="table-wrapper" markdown="block">
 | Aspect | Agreement | Correlation |
 |--------|-----------|-------------|
 | **Purpose** | Assess if measurements are the same | Assess if measurements are related |
 | **Focus** | Concordance between measurements of the *same* variable | Relationship between *different* variables |
 | **Key insight** | Two measurements can be highly correlated but have poor agreement | If measurements agree, they will be correlated |
-</div>
 
 > ⚠️ **Common Pitfall**: High correlation does not imply good agreement! Two methods can show r = 0.98 correlation while still having clinically unacceptable differences.
 
@@ -31,40 +29,52 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 ```mermaid
 flowchart TB
-    A{{"What type<br>of data?"}}
+    A{{"What type<br/>of data?"}}
     A --> B["Categorical"]
     A --> C["Continuous"]
     
-    B --> D{{"How many<br>raters?"}}
+    B --> D{{"How many<br/>raters?"}}
     D --> E["2 raters"]
-    D --> F["More than 2 raters"]
+    D --> F[">2 raters"]
     
     E --> G{{"Data type?"}}
-    G --> H["Binary/Nominal"]
+    G --> H["Binary / Nominal"]
     G --> I["Ordinal"]
     
     H --> J(["Cohen's Kappa"])
     I --> K(["Weighted Kappa"])
     F --> L(["Fleiss' Kappa"])
     
-    C --> M{{"What do<br>you need?"}}
+    C --> M{{"What do<br/>you need?"}}
     M --> N["Single index"]
     M --> O["Visual + Limits"]
     
     N --> P(["ICC"])
-    O --> Q(["Bland-Altman Plot"])
+    O --> Q(["Bland–Altman Plot"])
     
-    %% Styling
-    classDef decision fill:#cce5ff,stroke:#6baed6,stroke-width:2px
-    classDef catNode fill:#d5f5d5,stroke:#5cb85c,stroke-width:2px
-    classDef catMethod fill:#b8e6b8,stroke:#4cae4c,stroke-width:2px
-    classDef contNode fill:#fce4e4,stroke:#e89090,stroke-width:2px
-    classDef contMethod fill:#f5c6c6,stroke:#d9534f,stroke-width:2px
+    %% =========================
+    %% Color & Style Definitions
+    %% =========================
     
-    class A decision
-    class B,D,E,F,G,H,I catNode
+    %% Decision nodes
+    classDef decision fill:#E8F1FB,stroke:#4A90E2,stroke-width:2px,color:#1F3A5F
+    
+    %% Categorical branch
+    classDef catNode fill:#EAF7EF,stroke:#3CB371,stroke-width:2px,color:#1F4F3A
+    classDef catMethod fill:#3CB371,stroke:#2E8B57,stroke-width:2px,color:#FFFFFF
+    
+    %% Continuous branch
+    classDef contNode fill:#FFF1E6,stroke:#F39C12,stroke-width:2px,color:#6E3B00
+    classDef contMethod fill:#F39C12,stroke:#D68910,stroke-width:2px,color:#FFFFFF
+    
+    %% =========================
+    %% Class Assignments
+    %% =========================
+    
+    class A,D,G,M decision
+    class B,E,F,H,I catNode
     class J,K,L catMethod
-    class C,M,N,O contNode
+    class C,N,O contNode
     class P,Q contMethod
 ```
 
