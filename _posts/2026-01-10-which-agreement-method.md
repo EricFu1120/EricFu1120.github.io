@@ -15,11 +15,13 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 **Agreement** (also called concordance or reproducibility) refers to the degree of concordance between two or more sets of measurements made on the same subjects. This is fundamentally different from correlation:
 
+<div class="table-wrapper" markdown="block">
 | Aspect | Agreement | Correlation |
 |--------|-----------|-------------|
 | **Purpose** | Assess if measurements are the same | Assess if measurements are related |
 | **Focus** | Concordance between measurements of the *same* variable | Relationship between *different* variables |
 | **Key insight** | Two measurements can be highly correlated but have poor agreement | If measurements agree, they will be correlated |
+</div>
 
 > ⚠️ **Common Pitfall**: High correlation does not imply good agreement! Two methods can show r = 0.98 correlation while still having clinically unacceptable differences.
 
@@ -29,13 +31,13 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 ```mermaid
 flowchart TB
-    A{{"What type<br/>of data?"}}
+    A{{"What type<br>of data?"}}
     A --> B["Categorical"]
     A --> C["Continuous"]
     
-    B --> D{{"How many<br/>raters?"}}
+    B --> D{{"How many<br>raters?"}}
     D --> E["2 raters"]
-    D --> F[">2 raters"]
+    D --> F["More than 2 raters"]
     
     E --> G{{"Data type?"}}
     G --> H["Binary/Nominal"]
@@ -45,7 +47,7 @@ flowchart TB
     I --> K(["Weighted Kappa"])
     F --> L(["Fleiss' Kappa"])
     
-    C --> M{{"What do<br/>you need?"}}
+    C --> M{{"What do<br>you need?"}}
     M --> N["Single index"]
     M --> O["Visual + Limits"]
     
@@ -64,24 +66,6 @@ flowchart TB
     class J,K,L catMethod
     class C,M,N,O contNode
     class P,Q contMethod
-```
-
-### Quick Reference (Text Version)
-
-```
-What type of data do you have?
-│
-├── CATEGORICAL
-│   └── How many raters?
-│       ├── 2 Raters → Data type?
-│       │   ├── Binary/Nominal → Cohen's Kappa (κ)
-│       │   └── Ordinal → Weighted Kappa
-│       └── >2 Raters → Fleiss' Kappa
-│
-└── CONTINUOUS
-    └── What do you need?
-        ├── Single Index → ICC (Intraclass Correlation)
-        └── Visual Analysis → Bland-Altman Plot
 ```
 
 ---
