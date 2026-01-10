@@ -5,9 +5,6 @@ categories: [Statistics]
 tags: [agreement, evaluation]
 math: true
 mermaid: true
-image:
-  path: /assets/img/2026-01-10/overview-agreement.png
-  alt: Decision Flowchart
 ---
 
 # Which Agreement Measurement Method Should I Use?
@@ -18,11 +15,13 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 **Agreement** (also called concordance or reproducibility) refers to the degree of concordance between two or more sets of measurements made on the same subjects. This is fundamentally different from correlation:
 
+<div class="table-wrapper">
 | Aspect | Agreement | Correlation |
 |--------|-----------|-------------|
 | **Purpose** | Assess if measurements are the same | Assess if measurements are related |
 | **Focus** | Concordance between measurements of the *same* variable | Relationship between *different* variables |
 | **Key insight** | Two measurements can be highly correlated but have poor agreement | If measurements agree, they will be correlated |
+</div>
 
 > ⚠️ **Common Pitfall**: High correlation does not imply good agreement! Two methods can show r = 0.98 correlation while still having clinically unacceptable differences.
 
