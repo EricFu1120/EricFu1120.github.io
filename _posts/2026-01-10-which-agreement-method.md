@@ -16,11 +16,32 @@ When assessing whether two observers, instruments, or methods produce similar re
 **Agreement** (also called concordance or reproducibility) refers to the degree of concordance between two or more sets of measurements made on the same subjects. This is fundamentally different from correlation:
 
 <div class="table-wrapper">
-| Aspect | Agreement | Correlation |
-|--------|-----------|-------------|
-| **Purpose** | Assess if measurements are the same | Assess if measurements are related |
-| **Focus** | Concordance between measurements of the *same* variable | Relationship between *different* variables |
-| **Key insight** | Two measurements can be highly correlated but have poor agreement | If measurements agree, they will be correlated |
+  <table>
+    <thead>
+      <tr>
+        <th>Aspect</th>
+        <th>Agreement</th>
+        <th>Correlation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Purpose</strong></td>
+        <td>Assess if measurements are the same</td>
+        <td>Assess if measurements are related</td>
+      </tr>
+      <tr>
+        <td><strong>Focus</strong></td>
+        <td>Concordance between measurements of the <em>same</em> variable</td>
+        <td>Relationship between <em>different</em> variables</td>
+      </tr>
+      <tr>
+        <td><strong>Key insight</strong></td>
+        <td>Two measurements can be highly correlated but have poor agreement</td>
+        <td>If measurements agree, they will be correlated</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 > ⚠️ **Common Pitfall**: High correlation does not imply good agreement! Two methods can show r = 0.98 correlation while still having clinically unacceptable differences.
