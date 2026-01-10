@@ -5,6 +5,9 @@ categories: [Statistics]
 tags: [agreement, evaluation]
 math: true
 mermaid: true
+image:
+  path: /assets/img/2026-01-10/overview-agreement.png
+  alt: Decision Flowchart
 ---
 
 # Which Agreement Measurement Method Should I Use?
@@ -27,56 +30,7 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 ## Decision Flowchart: Which Method Should I Use?
 
-```mermaid
-flowchart TB
-    A{{"What type<br/>of data?"}}
-    A --> B["Categorical"]
-    A --> C["Continuous"]
-    
-    B --> D{{"How many<br/>raters?"}}
-    D --> E["2 raters"]
-    D --> F[">2 raters"]
-    
-    E --> G{{"Data type?"}}
-    G --> H["Binary / Nominal"]
-    G --> I["Ordinal"]
-    
-    H --> J(["Cohen's Kappa"])
-    I --> K(["Weighted Kappa"])
-    F --> L(["Fleiss' Kappa"])
-    
-    C --> M{{"What do<br/>you need?"}}
-    M --> N["Single index"]
-    M --> O["Visual + Limits"]
-    
-    N --> P(["ICC"])
-    O --> Q(["Bland–Altman Plot"])
-    
-    %% =========================
-    %% Color & Style Definitions
-    %% =========================
-    
-    %% Decision nodes
-    classDef decision fill:#E8F1FB,stroke:#4A90E2,stroke-width:2px,color:#1F3A5F
-    
-    %% Categorical branch
-    classDef catNode fill:#EAF7EF,stroke:#3CB371,stroke-width:2px,color:#1F4F3A
-    classDef catMethod fill:#3CB371,stroke:#2E8B57,stroke-width:2px,color:#FFFFFF
-    
-    %% Continuous branch
-    classDef contNode fill:#FFF1E6,stroke:#F39C12,stroke-width:2px,color:#6E3B00
-    classDef contMethod fill:#F39C12,stroke:#D68910,stroke-width:2px,color:#FFFFFF
-    
-    %% =========================
-    %% Class Assignments
-    %% =========================
-    
-    class A,D,G,M decision
-    class B,E,F,H,I catNode
-    class J,K,L catMethod
-    class C,N,O contNode
-    class P,Q contMethod
-```
+![Decision Flowchart](/assets/img/2026-01-10/overview-agreement.png){: .center }
 
 ---
 
