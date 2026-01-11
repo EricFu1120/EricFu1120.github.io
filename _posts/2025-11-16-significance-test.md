@@ -1,13 +1,11 @@
 ---
-title: Blog Recommend - Stats and R - What statistical test should I do? 
+title: Blog Recommend - What statistical test should I do? 
 date: 2025-11-16 15:30:00 +0800
 categories: [Statistics]
 tags: [significance test, reflection]
-author: Eric Fu
 description: Some thoughts when using specific test in a project
 ---
 
-# What Statistical Test Should I Do?
 
 **Reference:** [What statistical test should I do?](https://statsandr.com/blog/what-statistical-test-should-i-do/) from Stats and R
 
