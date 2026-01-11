@@ -7,7 +7,7 @@ description: Some thoughts when using specific test in a project
 ---
 
 
-**Reference:** [What statistical test should I do?](https://statsandr.com/blog/what-statistical-test-should-i-do/) from Stats and R
+**Recommend:** [What statistical test should I do?](https://statsandr.com/blog/what-statistical-test-should-i-do/) from Stats and R
 
 ## A Question You Must Ask Yourself in Your Research Career
 

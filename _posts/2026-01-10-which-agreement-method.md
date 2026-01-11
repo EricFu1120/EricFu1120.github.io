@@ -15,7 +15,15 @@ When assessing whether two observers, instruments, or methods produce similar re
 
 **Agreement** (also called concordance or reproducibility) refers to the degree of concordance between two or more sets of measurements made on the same subjects. This is fundamentally different from correlation:
 
-<div class="table-wrapper">
+<style>
+.table-wrapper {
+  overflow-x: auto;
+  display: block;
+  width: 100%;
+}
+</style>
+
+<div class="table-wrapper" markdown="block">
 
 | Aspect | Agreement | Correlation |
 |--------|-----------|-------------|
