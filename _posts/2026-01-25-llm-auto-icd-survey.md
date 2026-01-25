@@ -10,7 +10,7 @@ Medical coding—assigning ICD-10 codes to clinical notes—is a $15B+ industry 
  
 ---
 
-## MedCodER: A Generative AI Assistant for Medical Coding (arXiv 2409.15368)
+## 1. MedCodER: A Generative AI Assistant for Medical Coding (arXiv 2409.15368)
 
 **Three-stage LLM pipeline** (GPT-4): extraction → retrieval augmentation → re-ranking. Evaluated on extended ACI-BENCH (184 synthetic clinical notes, 360 ICD-10 codes). Claims SOTA over PLM-ICD and LLM Tree-Search.
 
@@ -21,7 +21,7 @@ Medical coding—assigning ICD-10 codes to clinical notes—is a $15B+ industry 
 
 ---
 
-## Code Like Humans: A Multi-Agent Solution for Medical Coding (arXiv 2509.05378)
+## 2. Code Like Humans: A Multi-Agent Solution for Medical Coding (arXiv 2509.05378)
 
 **Four-agent pipeline** mimicking NHS coding workflow: evidence extractor → index navigator → tabular validator → code reconciler. Evaluated on MDACE (302 real MIMIC-III charts with human-verified evidence spans).
 
@@ -32,7 +32,7 @@ Medical coding—assigning ICD-10 codes to clinical notes—is a $15B+ industry 
 
 ---
 
-## Toward Reliable Clinical Coding with Language Models: Verification and Lightweight Adaptation (arXiv 2510.07629)
+## 3. Toward Reliable Clinical Coding with Language Models: Verification and Lightweight Adaptation (arXiv 2510.07629)
 
 **Verification pipeline**: generate codes → expand via ICD hierarchy (siblings, cousins, 1-hop/2-hop neighbors) → LLM-based selection. New double expert-annotated outpatient dataset (207 ACI-BENCH notes with ICD-10-CM). Tests Claude Haiku/Sonnet, GPT-4o, Llama, PLM-ICD. Claims +16 F1 for fine-tuned Haiku-3 with verification.
 
@@ -59,11 +59,19 @@ Medical coding—assigning ICD-10 codes to clinical notes—is a $15B+ industry 
 
 ### Where to Go Next
 1. **Hybrid Retrieval**  
-   - **Sparse**: BM25 over alphabetic index (handles synonyms, eponyms)
-   - **Dense**: Contrastive-trained embeddings on (diagnosis text, ICD description) pairs
-   - **Structural**: Sibling/cousin/neighbor expansion from tabular list
+   - **Sparse**: TF-IDF/BM25
+   - **Dense**: Contrastive/LLM-trained embeddings
+   - **Structural**: Sibling/cousin/neighbor expansion
 2. **ICD-Aware Tokenizer**  
-   Don't use BPE/SentencePiece. Design tokenizer where each ICD code is a *single token*. Vocabulary = 70K codes + special tokens. Eliminates character-level hallucination (no more "I11.0" vs "I11.9" confusion—they're discrete symbols).
+   Don't use BPE/SentencePiece. Design tokenizer where each ICD code is a *single token*.
 3. **Dataset for Agentic LLM**
+
+---
+
+## References
+
+1. Baksi, K. D. et al. MedCodER: A generative AI assistant for medical coding. in Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: Industry Track) 449–459 (2025).
+2. Motzfeldt, A. et al. Code like humans: A multi-agent solution for medical coding. in Findings of the Association for Computational Linguistics: EMNLP 2025 22612–22627 (Association for Computational Linguistics, 2025).
+3. Yuan, M., Shing, H.-C., Strong, M. & Shivade, C. Toward Reliable Clinical Coding with Language Models: Verification and Lightweight Adaptation. in Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track 173–184 (2025).
 
 ---
