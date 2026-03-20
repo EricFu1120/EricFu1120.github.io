@@ -1,5 +1,5 @@
 ---
-title: Building an Agentic ICD-10 Coding Skill - Teaching AI to Code Like a Medical Coder
+title: Building an Agentic ICD-10 Coding Skill
 date: 2026-03-20 23:00:00 +0800
 categories: [Project]
 tags: [llm, icd, agent, skills]
