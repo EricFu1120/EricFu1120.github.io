@@ -6,6 +6,8 @@ order: 4
 
 > Self-supervised
 
+> AI4Healthcare
+
 > Safe Super Intelligence
 
 > Daydreaming
