@@ -44,7 +44,6 @@ This blog synthesizes **all six articles** into a single, actionable guide for b
 
 <div align="center">
 
-```svg
 <svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <defs>
     <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -101,7 +100,6 @@ This blog synthesizes **all six articles** into a single, actionable guide for b
     <text x="745" y="275" text-anchor="middle" fill="#fce7f3" font-size="10">Measurement &amp; Quality</text>
   </g>
 </svg>
-```
 
 </div>
 
@@ -306,7 +304,6 @@ LLMs have limited working memory. Anthropic identifies a phenomenon called **con
 
 <div align="center">
 
-```svg
 <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <text x="400" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">From Prompt Engineering to Context Engineering</text>
   <rect x="30" y="50" width="340" height="130" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
@@ -330,7 +327,6 @@ LLMs have limited working memory. Anthropic identifies a phenomenon called **con
   <text x="400" y="260" text-anchor="middle" font-size="11" fill="#1e40af" font-style="italic">"Find the smallest possible set of high-signal tokens that maximize</text>
   <text x="400" y="275" text-anchor="middle" font-size="11" fill="#1e40af" font-style="italic">the likelihood of the desired outcome."</text>
 </svg>
-```
 
 </div>
 
@@ -442,7 +438,6 @@ For tasks spanning hours or days, agents face the "shift change" problem: each n
 
 <div align="center">
 
-```svg
 <svg viewBox="0 0 860 400" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <defs>
     <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
@@ -487,7 +482,6 @@ For tasks spanning hours or days, agents face the "shift change" problem: each n
   <text x="50" y="365" font-size="10" fill="#374151" font-weight="bold">4. Agent skips proper testing</text>
   <text x="430" y="365" font-size="10" fill="#6b7280">Explicitly prompt for browser automation (Puppeteer)</text>
 </svg>
-```
 
 </div>
 
@@ -616,7 +610,6 @@ An evaluation consists of:
 
 <div align="center">
 
-```svg
 <svg viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <text x="400" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Capability Evals vs. Regression Evals</text>
   <rect x="30" y="45" width="350" height="175" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
@@ -638,7 +631,6 @@ An evaluation consists of:
   <rect x="440" y="178" width="310" height="28" rx="5" fill="#fee2e2"/>
   <text x="595" y="197" text-anchor="middle" font-size="10" fill="#991b1b">Run continuously to catch drift as you hill-climb</text>
 </svg>
-```
 
 </div>
 
