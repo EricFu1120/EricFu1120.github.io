@@ -123,7 +123,6 @@ This isn't just philosophy — it's a practical heuristic. The most successful a
 
 <div align="center">
 
-```svg
 <svg viewBox="0 0 860 380" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <defs>
     <linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -170,7 +169,6 @@ This isn't just philosophy — it's a practical heuristic. The most successful a
   <rect x="150" y="330" width="560" height="36" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
   <text x="430" y="353" text-anchor="middle" font-size="12" fill="#1e40af" font-weight="bold">Anthropic's Rule: Add complexity ONLY when it demonstrably improves outcomes</text>
 </svg>
-```
 
 </div>
 
