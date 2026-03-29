@@ -1,9 +1,8 @@
 ---
-title: CrewAI vs AutoGen - A Comparison of AI Agent Frameworks
+title: CrewAI vs AutoGen - A Comparison of Multi-Agent Frameworks
 date: 2026-03-29 22:05:00 +0800
 categories: [Survey]
 tags: [llm, agent, multi-agent, framework]
-description: A deep-dive on Anthropic engineering blog posts, distilling every actionable lesson into a practical guide for building production-grade AI agents.
 ---
 
 > **TL;DR** — CrewAI organizes agents into role-based teams that execute structured workflows; AutoGen orchestrates agents through free-form conversations. CrewAI gets you to a prototype in minutes; AutoGen gives you more power for complex, iterative tasks like code generation and research. Choose based on whether your problem looks more like a *team with job descriptions* or a *group discussion*.
